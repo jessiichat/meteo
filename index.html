@@ -10,12 +10,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="flex">
         <h1>La chaîne météo</h1>
-        <form action="">
-            <input type="text" id="location">
-            <i class="fas fa-search" id="button"></i>
-        </form>
+        <!-- <div id="searchbar">
+            <form action="" class="flex">
+                <input type="text" id="location">
+                <i class="fas fa-search" id="button"></i>
+            </form>
+            <ul id="autocomplete"></ul>
+        </div> -->
+        <input type="text" list="location" name="location"/>
+        <datalist id="location">
+            <option value="coucou"></option>
+        </datalist>
     </header>
     <main>
         <div id="weather"></div>
