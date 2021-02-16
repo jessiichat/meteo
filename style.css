@@ -16,10 +16,6 @@ html{
     font-size: 0.9rem;
 }
 
-body{
-    background: linear-gradient(0.25turn, #84a59d, #ebf8e1, #9bf6ff);
-}
-
 header{
     height: 10vh;
     justify-content: space-between;
@@ -29,23 +25,14 @@ header{
 main{
     height: 80vh;
     width: 90%;
-    margin: 0 auto;
+    margin: 10vh auto;
 }
 
 input {
     -webkit-appearance: none !important;
-    border: 1px solid transparent;
+    border: 1px solid black;
     padding: 0.3rem 0.8rem;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-
-#button {
-    background-color: #84a59d;
-    color: white;
-    padding: 0.4rem 0.8rem 0.4rem 0.4rem;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 50px;
 }
 
 h1{
@@ -56,14 +43,13 @@ h2{
     font-size: 3rem;
 } 
 
-ul{
-    width: 35vh;
-    position: absolute;
-    top: 7vh;
-    right: 0;
+p{
     padding: 1rem;
-    list-style: none;
-    background-color: white;
+}
+
+#temp{
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
 }
 
 #weather{    
@@ -75,4 +61,14 @@ ul{
     width: 25%;
     margin: 5vh auto;
     justify-content: space-around;
+}
+
+#mapid{
+    width: 50vw;
+    height: 50vh;
+}
+
+#myChart{
+    width: 50vw !important;
+    height: 50vh !important; 
 }
